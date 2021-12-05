@@ -1,0 +1,107 @@
+/*------------------------------ category-header ----------------------------------------------*/
+.category-header__container{
+    display: flex;
+    justify-content: space-between;
+}
+.category-header__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bread-crumbs__link{
+    color: #1F1F1F;
+    font-weight: 500;
+    font-size: 15px;
+}
+.bread-crumbs__link:hover{
+    color: #FDA3C4;
+    text-decoration: underline;
+}
+.category-header__title-text{
+    position: relative;
+}
+.category-header__big-title{
+    font-family: 'Sunday Best [rus by aLiNcE]';
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 191%;
+    color: #FDA3C4;
+}
+.category-header__small-title{
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+.category-header__small-title-text{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 121%;
+    color: #1F1F1F;
+    margin: 0 17px 0 0;
+}
+.category-header__image{
+    margin: 0 0 0 10px;
+}
+.category-header__image img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* ====================category-body=========================================== */
+
+.page__category-body{
+    margin: 60px 0 0 0;
+}
+.category-body__sort-name{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 0 30px 0;
+}
+.sort-item{
+    margin: 0 0 15px 0;
+}
+.sort-item__label{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 0 0 15px;
+}
+.category-body__cards{
+    max-width: 950px;
+}
+.category-body__container{
+    display: flex;
+    justify-content: space-between;
+}
+.category-body__cards{
+    flex: 0 1 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.category-body__column{
+    flex: 0 1 50%;   
+    position: relative;  
+}
+.category-body__column:hover{
+    transform: scale(1.05, 1.05);
+    transition-duration: .2s;
+    box-shadow: 0px 1px 23px 3px rgba(34, 60, 80, 0.2);
+    z-index: 2;
+}
+.product-item a{
+    display: block;
+}
+.product-item__fav{
+    z-index: 10;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.product-item__fav img{
+    display: block;
+}
+
+
+
+

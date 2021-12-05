@@ -1,0 +1,205 @@
+.bread-crumbs__link{
+    color: #1F1F1F;
+    font-weight: 500;
+    font-size: 15px;
+}
+/* ------------------DESCRIPTION---------------------------------- */
+.page__description{
+    margin: 30px 0 0 0;
+}
+.description__container{
+    display: flex;
+    justify-content: space-between;
+}
+.description__images-inner{
+    display: flex;
+}
+.description__big-image{
+    width: 463px;
+    height: 609px;
+}
+.description__big-image img{
+    display: block;
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+}
+.description__preview{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.description__title{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 121%;
+    margin: 0 0 5px 0;
+}
+.description__price{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 121%;
+    color: #FDA3C4;
+    margin: 0 0 10px 0;
+}
+.description__size{
+    margin: 0 0 20px 0;
+}
+.description__size-text{
+    font-weight: 400;
+    line-height: 121%;
+    font-style: italic;
+    font-size: 14px;
+    margin: 0 0 8px 0;
+}
+.description__size-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.description__size-button-inner{
+    padding: 5px;
+    border-top: solid #000000 2px;
+    border-bottom: solid #000000 2px;
+    cursor: pointer;
+}
+.description__size-button-inner:hover{
+    transform: scale(1.05, 1.05);
+    transition-duration: .1s;
+    background-color: #FDA3C4;
+    color: #FFFFFF;
+}
+.size-button-active{
+    transform: scale(1.05, 1.05);
+    transition-duration: .1s;
+    background-color: #FDA3C4;
+    color: #FFFFFF;
+}
+.description__size-button{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 121%;
+}
+.description__buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+}
+.description__button-to-cart, .description__button-quick-order{   
+    padding: 15px 40px;
+    color: white;
+    background-color: #FDA3C4;
+    border: solid 2px #FDA3C4;
+    font-family: 'Sunday Best [rus by aLiNcE]';
+    font-size: 16px;
+    width: max-content;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.description__button-to-cart:hover, .description__button-quick-order:hover{
+    color: #FDA3C4;
+    background-color: white;
+}
+.description__description-text{
+    font-size: 14px;
+    line-height: 121%;
+    margin: 0 0 20px 0;
+}
+.description__parameters-inner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+}
+.description__parameters-text{
+    margin: 0 0 10px 0;
+}
+.description__parameters-text h4, .description__composition-text h4{
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 121%;
+    margin: 0 0 4px 0;
+}
+.description__composition-text span{
+    display: block;
+}
+.description__button-size-table{
+    display: block;
+    padding: 8px 25px;
+    color: #FDA3C4;
+    border: solid 2px #FDA3C4;
+    font-family: 'Sunday Best [rus by aLiNcE]';
+    font-size: 14px;
+    width: max-content;
+    margin: 0 auto;
+}
+.description__button-size-table:hover{
+    background-color: #FDA3C4;
+    color: white;
+}
+
+/* ------------INFO_INNER------------------------------ */
+
+.page__info-inner{
+    margin: 60px 0 0 0;
+}
+.info-inner__container{
+    display: flex;
+    justify-content: space-between;
+}
+.info-inner__item:not(:last-child){
+    margin: 0 0 8px 0;
+}
+
+/* --------------------modal-size-table---------------------------- */
+
+.modal-size-table{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+}
+.modal-size-table__container{
+    background-color: #FDA3C4;
+    padding: 165px 140px 200px 120px;
+    position: relative;
+}
+.modal-size-table__close-button{
+    position: absolute;
+    top: 70px;
+    right: 70px;
+}
+.modal-size-table__title{
+    font-family: 'Sunday Best [rus by aLiNcE]';
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 191%;
+    margin: 0 0 45px 0;
+}
+.modal-size-table__tables{
+    display: flex;
+    justify-content: space-between;
+}
+.body-table__text, .size-table__text{
+    font-size: 18px;
+    line-height: 121%;
+    margin: 0 0 17px 0;
+}
+.body-table table, .size-table table{
+    border-collapse: collapse; 
+    border-spacing: 0;
+}
+.body-table table tr, .size-table table tr{
+    border-bottom: solid #FFFFFF 2px;
+}
+.body-table table th, .size-table table th{
+    padding: 5px;
+}
+
+
+
+
+
+

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
+    <title>BOORIVA: Cart</title>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__container _container-small">
+                <div class="header__content">
+                    <ul class="header__info">
+                        <a href="" class="header__adress">
+                            <img class="header__adress-icon" src="images/icons/icons-header-desctop/desctop_location.svg" alt="adress">
+                            <span class="header__adress-text">Киев, Нижний вал, 37</span> 
+                        </a>
+                        <a href="" class="header__tel">
+                            <img src="images/icons/icons-header-desctop/desctop_phone.svg" alt="phone">
+                            <span class="header__tel-number">+38 063 843 34 71</span>
+                        </a>
+                    </ul>
+                    <a href="index.html" class="header__logo"><img src="images/logos/logo.svg" alt=""></a>
+                    <a href="" class="header__search">
+                        <img class="header__search-icon" src="images/icons/icons-header-desctop/desctop_search.svg" alt="search">
+                        <span class="header__search-text">Поиск</span>
+                    </a>
+                    <div class="header__fav-and-cart">
+                        <a href="" class="header__fav-link"><img src="images/icons/icons-header-desctop/desktop_favourite.svg" alt=""></a>
+                        <a href="" class="header__cart-link"><img src="images/icons/icons-header-desctop/desctop_bag.svg" alt=""></a>
+                    </div>
+                </div>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="" class="menu__link">НОВИНКИ</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">ПЛАТЬЯ</a></li>
+                        <li class="menu__item menu__item-top"><a href="" class="menu__link">ВЕРХ</a></li>
+                        <li class="menu__item menu__item-bottom"><a href="" class="menu__link">НИЗ</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">КУРТКИ</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">МЕЛОЧИ</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">КОСТЮМЫ</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">#BOORIVAGIRLS</a></li>
+                    </ul>
+                </nav>
+                <nav class="header__menu menu header__sub-menu header__sub-menu-top display-none">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="" class="menu__link">Комбинезоны</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Пиджаки</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Рубашки</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Свитшоты</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Худи</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Топы</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Футболки</a></li>
+                    </ul>
+                </nav>
+                <nav class="header__menu menu header__sub-menu header__sub-menu-bottom display-none">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="" class="menu__link">Брюки</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Велосипедки</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Джинсы</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Штаны</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Шорты</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Юбки</a></li>
+                    </ul>
+                </nav>
+                <div class="header__mobile-menu">
+                    <nav class="mobile-menu__burger-menu burger display-none">
+                        <a href="" class="burger__close-button">
+                            <img src="images/mobile-menu/close_button.svg" alt="button">
+                        </a>
+                        <h3 class="burger__title">МЕНЮ</h3>
+                        <ul class="burger__list">
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">НОВИНКИ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">ПЛАТЬЯ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">ВЕРХ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link sub-menu__link">НИЗ ></a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">КУРТКИ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">МЕЛОЧИ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">КОСТЮМЫ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">#BOORIVAGIRLS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="mobile-menu__burger-sub-menu sub-menu display-none">
+                        <a href="" class="burger__close-button sub-menu__close-button">
+                            <img src="images/mobile-menu/close_button.svg" alt="button">
+                        </a>
+                        <h3 class="burger__title">МЕНЮ / НИЗ</h3>
+                        <ul class="burger__list">
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link comeback-link">ВСЕ ТОВАРЫ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">БРЮКИ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">ВЕЛОСИПЕДКИ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">ДЖИНСЫ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">ШТАНЫ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">ШОРТЫ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">ЮБКИ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="mobile-menu__container">
+                        <div class="mobile-menu__burger-button">
+                            <a class="mobile-menu__burger-link mobile-menu__link" href="">
+                                <div class="mobile-menu__burger-icon">
+                                    <img src="images/mobile-menu/icon_menu.svg" alt="Burger-menu">
+                                </div>
+                                <div class="mobile-menu__burger-name link-name">
+                                    Меню
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mobile-menu__feedback">
+                            <a href="" class="mobile-menu__feedback-link mobile-menu__link">
+                                <div class="mobile-menu__feedback-icon">
+                                    <img src="images/mobile-menu/icon_send_message.svg" alt="Send-message">
+                                </div>
+                                <div class="mobile-menu__feedback-name link-name">
+                                    Написать
+                                </div>
+                            </a> 
+                        </div>
+                        <div class="mobile-menu__cart">
+                            <a href="" class="mobile-menu__cart-link mobile-menu__link">
+                                <div class="mobile-menu__cart-icon">
+                                    <img src="images/mobile-menu/icon_bag.png" alt="Cart">
+                                </div>
+                                <div class="mobile-menu__cart-name link-name">
+                                    Корзина
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mobile-menu__fav">
+                            <a href="" class="mobile-menu__fav-link mobile-menu__link">
+                                <div class="mobile-menu__fav-icon">
+                                    <img src="images/mobile-menu/icon_wishlist.png" alt="Wishlist">
+                                </div>
+                                <div class="mobile-menu__fav-name link-name">
+                                    Wish list
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>            
+        </header>
+
+        <div class="search-modal display-none">
+            <div class="search-modal__window">
+                <div class="modal-search__text">
+                    Введите название товара. Например: Бомбер
+                </div>
+                <div class="modal-search__input">
+                    <input id="search-input" type="search">
+                </div>
+                <div class="modal-search__container">
+                    <ul class="modal-search__list">
+                        <!-- <li class="modal-search__item">
+                            <a href="" class="modal-search__link">gfhgfhdg</a>
+                        </li> -->
+                    </ul>
+                </div>
+                <a href="" class="search-modal__close-button">
+                    <img src="images/mobile-menu/close_button.svg" alt="button">
+                </a>
+            </div>
+        </div>
+
+        <main class="page">
+
+            <div class="page__cart">
+                <div class="cart__container _container-small">
+                    <div class="cart__form-inner">
+                        <form class="form" action="">
+                            <div class="form__contacts">
+                                <div class="form__title">
+                                    <div class="form__title-small">
+                                        <h3>КОНТАКТНЫЕ ДАННЫЕ</h3>
+                                    </div>
+                                    <div class="form__title-big">
+                                        <h2>1</h2>
+                                        <img src="images/cart/Vector.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="form__contacts-inner">
+                                    <div class="form__element">
+                                        <input id="fName" name="fName" placeholder="Имя" type="text">
+                                    </div>
+                                    <div class="form__element">
+                                        <input id="fName" name="fName" placeholder="Фамилия" type="text">
+                                    </div>
+                                    <div class="form__element">
+                                        <input id="tel" name="tel" placeholder="+375" type="tel">
+                                    </div>
+                                    <div class="form__element">
+                                        <input id="email" name="email" placeholder="E-mail" type="email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__delivery">
+                                <div class="form__title">
+                                    <div class="form__title-small">
+                                        <h3>СПОСОБ ДОСТАВКИ</h3>
+                                    </div>
+                                    <div class="form__title-big">
+                                        <h2>2</h2>
+                                        <img src="images/cart/Vector.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="form__delivery-inner">
+                                    <div class="form__element">
+                                        <input type="radio" name="delivery" id="delivery1" value="value-1">
+                                        <label for="delivery1">
+                                            Доставка в отделение Новой почты — 
+                                        </label>
+                                        <span>согласно тарифам НП</span>
+                                    </div>
+                                    <div class="form__element">
+                                        <input type="radio" name="delivery" id="delivery2" value="value-2">
+                                        <label for="delivery2">
+                                            Курьерская доставка Новой почты — 
+                                        </label>
+                                        <span>согласно тарифам НП</span>
+                                    </div>
+                                    <div class="form__element">
+                                        <input type="radio" name="delivery" id="delivery3" value="value-3">
+                                        <label for="delivery3">
+                                            Международная доставка — 
+                                        </label>
+                                        <span>согласно тарифам Укрпочта</span>
+                                    </div>
+                                    <div class="form__element">
+                                        <input type="radio" name="delivery" id="delivery4" value="value-4" checked>
+                                        <label for="delivery4">
+                                            Самовывоз с нашего шоурума — 
+                                        </label>
+                                        <span>бесплатно</span>
+                                    </div>
+                                    <div class="form__info">
+                                        <div>
+                                            г.Киев,  ул. Нижний вал, 37
+                                        </div>
+                                        <div>
+                                            Ежедневно с 11:00 до 21:00
+                                        </div>
+                                    </div>
+                                    <div class="form__element">
+                                        <textarea name="message" id="message" placeholder="Коментарий к заказу" cols="30" rows="10"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__pay">
+                                <div class="form__title">
+                                    <div class="form__title-small">
+                                        <h3>СПОСОБ ОПЛАТЫ</h3>
+                                    </div>
+                                    <div class="form__title-big">
+                                        <h2>3</h2>
+                                        <img src="images/cart/Vector.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="form__pay-inner">
+                                    <div class="form__element">
+                                        <input type="radio" name="pay" id="pay1" value="value-1">
+                                        <label for="pay1">
+                                            Картой Visa / MasterCard
+                                        </label>
+                                    </div>
+                                    <div class="form__element">
+                                        <input type="radio" name="pay" id="pay2" value="value-2" checked>
+                                        <label for="pay2">
+                                            Наличкой при получении
+                                        </label>
+                                    </div>
+                                    <div class="form__element">
+                                        <input type="text" name="card" placeholder="Номер карты boorivasis" id="card">
+                                    </div>
+                                    <div class="form__element">
+                                        <input type="radio" name="order" id="order" value="submit">
+                                        <label for="order">
+                                            Я уверена в заказе, звонок не нужен
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__footer">
+                                <div class="form__element">
+                                    <input class="form__button" type="submit" value="ПОДТВЕРДИТЬ ЗАКАЗ">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="cart__products">
+                        <div class="cart__products-title">
+                            ТОВАРЫ В КОРЗИНЕ:
+                        </div>
+                        <div class="cart__products-inner">
+                            <div class="cart__product-card product-card">
+                                <div class="product-card__image">
+                                    <img src="images/cart/product.jpg" alt="Бомбер">
+                                </div>
+                                <div class="product-card__description">
+                                    <div class="product-card__name">
+                                        Бомбер Gone Crazy хаки
+                                    </div>
+                                    <div class="product-card__size">
+                                        S — M
+                                    </div>
+                                    <div class="product-card__price">
+                                        2499 ₴
+                                    </div>
+                                    <a href="" class="product-card__close-button">
+                                        <img src="images/cart/delete.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="cart__price">
+                                <div class="cart__order-price">
+                                    <span>Cумма заказа:</span>
+                                    <span class="font-weight-700">2499 ₴</span>
+                                </div>
+                                <div class="cart__delivery-price">
+                                    <span>Стоимость доставки:</span>
+                                    <span class="font-weight-700">бесплатно</span>
+                                </div>
+                                <div class="cart__final-price">
+                                    <span>К оплате:</span>
+                                    <span class="font-weight-700">2499 ₴</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container _container-small">
+                <div class="footer__body">
+                    <div class="footer__logo">
+                        <a href=""><img src="images/footer/logo.svg" alt="BOORIVA"></a>
+                    </div>
+                    <nav class="footer__menu">
+                        <h4 class="footer__menu-title footer__title">ИНФО</h4>
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item"><a href="">Контакты</a></li>
+                            <li class="footer__menu-item"><a href="">Система лояльности</a></li>
+                            <li class="footer__menu-item"><a href="">Обмен и возврат</a></li>
+                            <li class="footer__menu-item"><a href="">Доставка и оплата</a></li>
+                        </ul>
+                    </nav>
+                    <div class="footer__info-address">
+                        <h4 class="footer__info-address-title footer__title">НАШ АДРЕС</h4>
+                        <div class="footer__address">
+                            г.Киев, ул. Нижний Вал, 37
+                        </div>
+                        <div class="footer__time">
+                            Пн — Вс: с 11:00 до 21:00
+                        </div>
+                    </div>
+                    <div class="footer__media-links">
+                        <h4 class="footer__media-title footer__title">
+                            СОЦ.СЕТИ
+                        </h4>
+                        <div class="footer__media-icons">
+                            <div class="footer__inst-icon">
+                                <a class="footer__inst-link" href="">
+                                    <img src="images/footer/instagram-logo.svg" alt="instagram">
+                                </a>
+                            </div>
+                            <div class="footer__facebook-icon">
+                                <a class="footer__facebook-link" href="">
+                                    <img src="images/footer/facebook-logo.svg" alt="facebook">
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__feedback">
+                        <div class="footer__feedback-info">
+                            <div class="footer__feedback-image">
+                                <img src="images/footer/photo.jpg" alt="Ivanka">
+                            </div>
+                            <div class="footer__feedback-text">
+                                Нам важно знать, что ты думаешь про нас! Просто напиши мне!
+                            </div>
+                        </div>
+                        <a class="footer__feedback-link footer__title" href="">Написать Иванке</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    
+</body>
+</html>

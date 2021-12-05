@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
+    <title>BOORIVA: Main</title>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__container _container-small">
+                <div class="header__content">
+                    <ul class="header__info">
+                        <a href="" class="header__adress">
+                            <img class="header__adress-icon" src="images/icons/icons-header-desctop/desctop_location.svg" alt="adress">
+                            <span class="header__adress-text">Киев, Нижний вал, 37</span> 
+                        </a>
+                        <a href="" class="header__tel">
+                            <img src="images/icons/icons-header-desctop/desctop_phone.svg" alt="phone">
+                            <span class="header__tel-number">+38 063 843 34 71</span>
+                        </a>
+                    </ul>
+                    <a href="index.html" class="header__logo"><img src="images/logos/logo.svg" alt=""></a>
+                    <a href="" class="header__search">
+                        <img class="header__search-icon" src="images/icons/icons-header-desctop/desctop_search.svg" alt="search">
+                        <span class="header__search-text">Поиск</span>
+                    </a>
+                    <div class="header__fav-and-cart">
+                        <a href="" class="header__fav-link"><img src="images/icons/icons-header-desctop/desktop_favourite.svg" alt=""></a>
+                        <a href="./cart.html" class="header__cart-link"><img src="images/icons/icons-header-desctop/desctop_bag.svg" alt=""></a>
+                    </div>
+                </div>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="" class="menu__link">НОВИНКИ</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">ПЛАТЬЯ</a></li>
+                        <li class="menu__item menu__item-top"><a href="" class="menu__link">ВЕРХ</a></li>
+                        <li class="menu__item menu__item-bottom"><a href="" class="menu__link">НИЗ</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">КУРТКИ</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">МЕЛОЧИ</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">КОСТЮМЫ</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">#BOORIVAGIRLS</a></li>
+                    </ul>
+                </nav>
+                <nav class="header__menu menu header__sub-menu header__sub-menu-top display-none">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="" class="menu__link">Комбинезоны</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Пиджаки</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Рубашки</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Свитшоты</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Худи</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Топы</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Футболки</a></li>
+                    </ul>
+                </nav>
+                <nav class="header__menu menu header__sub-menu header__sub-menu-bottom display-none">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="" class="menu__link">Брюки</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Велосипедки</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Джинсы</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Штаны</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Шорты</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Юбки</a></li>
+                    </ul>
+                </nav>
+                <div class="header__mobile-menu">
+                    <nav class="mobile-menu__burger-menu burger display-none">
+                        <a href="" class="burger__close-button">
+                            <img src="images/mobile-menu/close_button.svg" alt="button">
+                        </a>
+                        <h3 class="burger__title">МЕНЮ</h3>
+                        <ul class="burger__list">
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">НОВИНКИ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">ПЛАТЬЯ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">ВЕРХ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link sub-menu__link">НИЗ ></a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">КУРТКИ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">МЕЛОЧИ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">КОСТЮМЫ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">#BOORIVAGIRLS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="mobile-menu__burger-sub-menu sub-menu display-none">
+                        <a href="" class="burger__close-button sub-menu__close-button">
+                            <img src="images/mobile-menu/close_button.svg" alt="button">
+                        </a>
+                        <h3 class="burger__title">МЕНЮ / НИЗ</h3>
+                        <ul class="burger__list">
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link comeback-link">ВСЕ ТОВАРЫ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">БРЮКИ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">ВЕЛОСИПЕДКИ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">ДЖИНСЫ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">ШТАНЫ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">ШОРТЫ</a>
+                            </li>
+                            <li class="burger__item">
+                                <a href="" class="burger__item-link">ЮБКИ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="mobile-menu__container">
+                        <div class="mobile-menu__burger-button">
+                            <a class="mobile-menu__burger-link mobile-menu__link" href="">
+                                <div class="mobile-menu__burger-icon">
+                                    <img src="images/mobile-menu/icon_menu.svg" alt="Burger-menu">
+                                </div>
+                                <div class="mobile-menu__burger-name link-name">
+                                    Меню
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mobile-menu__feedback">
+                            <a href="" class="mobile-menu__feedback-link mobile-menu__link">
+                                <div class="mobile-menu__feedback-icon">
+                                    <img src="images/mobile-menu/icon_send_message.svg" alt="Send-message">
+                                </div>
+                                <div class="mobile-menu__feedback-name link-name">
+                                    Написать
+                                </div>
+                            </a> 
+                        </div>
+                        <div class="mobile-menu__cart">
+                            <a href="" class="mobile-menu__cart-link mobile-menu__link">
+                                <div class="mobile-menu__cart-icon">
+                                    <img src="images/mobile-menu/icon_bag.png" alt="Cart">
+                                </div>
+                                <div class="mobile-menu__cart-name link-name">
+                                    Корзина
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mobile-menu__fav">
+                            <a href="" class="mobile-menu__fav-link mobile-menu__link">
+                                <div class="mobile-menu__fav-icon">
+                                    <img src="images/mobile-menu/icon_wishlist.png" alt="Wishlist">
+                                </div>
+                                <div class="mobile-menu__fav-name link-name">
+                                    Wish list
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>            
+        </header>
+
+        <div class="search-modal display-none">
+            <div class="search-modal__window">
+                <div class="modal-search__text">
+                    Введите название товара. Например: Бомбер
+                </div>
+                <div class="modal-search__input">
+                    <input id="search-input" type="search">
+                </div>
+                <div class="modal-search__container">
+                    <ul class="modal-search__list">
+                        <!-- <li class="modal-search__item">
+                            <a href="" class="modal-search__link">gfhgfhdg</a>
+                        </li> -->
+                    </ul>
+                </div>
+
+                <a href="" class="search-modal__close-button">
+                    <img src="images/mobile-menu/close_button.svg" alt="button">
+                </a>
+            </div>
+        </div>
+
+        <main class="page">
+
+            <div class="page__category-cards">
+                <div class="page__category-cards category-cards">
+                    <div class="category-cards__container _container-small">
+                        <div class="category-cards__body"> 
+                            <a href="./category.html" class="category-cards__link">
+                                <img src="images/index_category-cards/bottom.jpg" alt="bottom">
+                            </a>
+                            <a href="./category.html" class="category-cards__link">
+                                <img src="images/index_category-cards/top.jpg" alt="top">
+                            </a>  
+                            <a href="./category.html" class="category-cards__link">
+                                <img src="images/index_category-cards/dresses.jpg" alt="dresses">
+                            </a>
+                            <a href="./category.html" class="category-cards__link">
+                                <img src="images/index_category-cards/costumes.jpg" alt="costumes">
+                            </a>                        
+                            <a href="./category.html" class="category-cards__link link-big">
+                                <img src="images/index_category-cards/t-shirts.jpg" alt="t-shirts">
+                            </a>
+                            <a href="./category.html" class="category-cards__link link-big">
+                                <img src="images/index_category-cards/hoodies.jpg" alt="hoodies">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="page__new-products">
+                <div class="new-products__container _container-big">
+                    <div class="new-products__header _container-small">
+                        <h3 class="new-products__title">НОВИНКИ</h3>
+                        <div class="new-products__title-small">
+                            <h4 class="new-products__title-small-text">НОВИНКИ</h4>
+                            <img src="images/index_new-products/icons/Vector.svg" alt="Vector">
+                        </div>
+                    </div>
+                    <div class="new-products__body">
+                        <a href="" class="new-products__column">
+                            <article class="new-products__item product-item">
+                                <div class="product-item__image">
+                                    <img src="images/index_new-products/sweatshirt.jpg" alt="Cвитшот вставка клетка">
+                                </div>
+                                <div class="product-item__description">
+                                    <div class="product-item__name">Cвитшот вставка клетка</div>
+                                    <div class="product-item__price">1099₴</div>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="" class="new-products__column">
+                            <article class="new-products__item product-item">
+                                <div class="product-item__image">
+                                    <img src="images/index_new-products/black_dress.jpg" alt="Платье прозрачное в цветочек черное">
+                                </div>
+                                <div class="product-item__description">
+                                    <div class="product-item__name">Платье прозрачное в цветочек черное</div>
+                                    <div class="product-item__price">1099₴</div>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="" class="new-products__column">
+                            <article class="new-products__item product-item">
+                                <div class="product-item__image">
+                                    <img src="images/index_new-products/bomber.jpg" alt="Бомбер Gone Crazy хаки">
+                                </div>
+                                <div class="product-item__description">
+                                    <div class="product-item__name">Бомбер Gone Crazy хаки</div>
+                                    <div class="product-item__price">1099₴</div>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="" class="new-products__column">
+                            <article class="new-products__item product-item">
+                                <div class="product-item__image">
+                                    <img src="images/index_new-products/dress_t-shirt.jpg" alt="Платье-футболка рыбы в аквариуме">
+                                </div>
+                                <div class="product-item__description">
+                                    <div class="product-item__name">Платье-футболка рыбы в аквариуме</div>
+                                    <div class="product-item__price">1099₴</div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                    <a href="" class="new-products__button_show-all">
+                        <img src="images/buttons/button_show-all-pink.svg" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="page__slider">
+                <div class="slider__container ">
+                    <img src="images/index_slider/baner.jpg" alt="New collection">
+                </div>
+            </div>
+
+            <div class="page__info">
+                <div class="info__container _container-little">
+                    <h3 class="info__title">BOORIVA STORE</h3>
+                    <div class="info__map">
+                        <img src="images/index_info/map.png" alt="Adress">
+                    </div>
+                    <div class="info__body">
+                        <div class="info__adress-and-time"> 
+                            <div class="info__adress">г.Киев, ул. Нижний вал, 37</div>
+                            <div class="info__time">Ежедневно с 11:00 до 21:00</div>
+                        </div>
+                        <div class="info__image">
+                            <img src="images/index_info/shop.jpg" alt="BOORIVA STORE">
+                        </div>
+                        <div class="info__text">
+                            Ты можешь заказать примерку понравившейся вещи или просто заглянуть, гуляя по Подолу, 
+                            и примерять что-то из того, что есть в наличии
+                        </div>
+                    </div>
+                    <div class="info__footer">
+                        <a href="" class="info__button-open-maps">
+                            <img src="images/buttons/button_navigate-pink.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page__top-products">
+                <div class="top-products__container">
+                    <div class="top-products__header">
+                        <div class="top-products__title">
+                            <marquee width="49.5%">
+                                ТОПОВЫЕ ТОВАРЫ    
+                            </marquee>
+                            <marquee width="49.5%" direction="right">
+                                ТОПОВЫЕ ТОВАРЫ
+                            </marquee>
+                        </div>
+                    </div>
+                    <div class="top-products__body _container-small">
+                        <div class="top-products__small-cards">
+                            <a href="" class="top-products__small-column">
+                                <article class="top-products__small-item product-item">
+                                    <div class="product-item__image">
+                                        <img src="images/index_new-products/bomber.jpg" alt="Бомбер Gone Crazy">
+                                    </div>
+                                    <div class="product-item__description">
+                                        <div class="product-item__name">Бомбер Gone Crazy хаки</div>
+                                        <div class="product-item__price">2499₴</div>
+                                    </div>
+                                </article>
+                            </a>
+                            <a href="" class="top-products__small-column">
+                                <article class="top-products__small-item product-item">
+                                    <div class="product-item__image">
+                                        <img src="images/index_new-products/dress_t-shirt.jpg" alt="Платье-футболка рыбы в аквариуме">
+                                    </div>
+                                    <div class="product-item__description">
+                                        <div class="product-item__name">Платье-футболка рыбы в аквариуме</div>
+                                        <div class="product-item__price">899₴</div>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                        <div class="top-products__image">
+                            <img src="images/index_top-products/banner.jpg" alt="Top products">
+                        </div>
+                        <div class="top-products__big-card">
+                            <a href="" class="top-products__big-column">
+                                <article class="top-products__big-item product-item">
+                                    <div class="product-item__image">
+                                        <img src="images/index_new-products/black_dress.jpg" alt="Платье прозрачное в цветочек">
+                                    </div>
+                                    <div class="product-item__description">
+                                        <div class="product-item__name">Платье прозрачное в цветочек черное</div>
+                                        <div class="product-item__price">1299₴</div>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="top-products__footer">
+                        <a href="" class="top-products__button_show-all">
+                            <img src="images/buttons/button_show-all-pink.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page__costumes">
+                <div class="costumes__container _container-big">
+                    <div class="costumes__header _container-small">
+                        <h3 class="costumes__title">КОСТЮМЫ</h3>
+                        <div class="costumes__title-small">
+                            <h4 class="costumes__title-small-text">КОСТЮМЫ</h4>
+                            <img src="images/index_costumes/icons/Vector.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="costumes__body">
+                        <a class="costumes__image" href="">
+                            <img src="images/index_costumes/costume_1.jpg" alt="Костюм">
+                        </a>
+                        <a class="costumes__image" href="">
+                            <img src="images/index_costumes/costume_2.jpg" alt="Костюм">
+                        </a>
+                        <a class="costumes__image" href="">
+                            <img src="images/index_costumes/costume_3.jpg" alt="Костюм">
+                        </a>
+                        <a class="costumes__image" href="">
+                            <img src="images/index_costumes/costume_4.jpg" alt="Костюм">
+                        </a>                   
+                    </div>
+                    <a href="" class="costumes__button-show-all">
+                        <img src="images/buttons/button_show-all-pink.svg" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="page__info-block">
+                <div class="info-block__container _container-small">
+                    <div class="info-block__body">
+                        <div class="info-block__item">
+                            <img src="images/index_info-block/info_1.svg" alt="Info">
+                        </div>
+                        <div class="info-block__item">
+                            <img src="images/index_info-block/info_2.svg" alt="Info">
+                        </div>
+                        <div class="info-block__item">
+                            <img src="images/index_info-block/info_3.svg" alt="Info">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page__instagram">
+                <div class="instagram__container _container-small">
+                    <div class="instagram__body">
+                        <div class="instagram__title-block">
+                            <h3 class="instagram__title"><a href="">INSTAGRAM</a></h3>
+                            <div class="instagram__title-text">
+                                Мы в экстазе, когда ты нас отмечаешь) Отмечай плз чаще
+                            </div>
+                            <div class="instagram__title-images">
+                                <div class="instagram__big-title-image">
+                                    <img src="images/instagram/title-big.jpg" alt="Instagram">
+                                </div>
+                                <div class="instagram__small-title-image">
+                                    <img src="images/instagram/title-small.jpg" alt="Instagram">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="instagram__image-block">
+                            <img src="images/instagram/main-image.jpg" alt="Instagram">
+                        </div>
+                        <div class="instagram__boorivagirls">
+                            <div class="instagram__booriva-images">
+                                <div class="instagram__small-booriva-image">
+                                    <img src="images/instagram/booriva-small.jpg" alt="Instagram">
+                                </div>
+                                <div class="instagram__big-booriva-image">
+                                    <img src="images/instagram/booriva-big.jpg" alt="Instagram">
+                                </div>
+                            </div>
+                            <div class="instagram__booriva-tag">
+                                #boorivagirls
+                            </div>
+                            <div class="instagram__text">
+                                Ставь тэг чтобы быть в нашей тусовке.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container _container-small">
+                <div class="footer__body">
+                    <div class="footer__logo">
+                        <a href=""><img src="images/footer/logo.svg" alt="BOORIVA"></a>
+                    </div>
+                    <nav class="footer__menu">
+                        <h4 class="footer__menu-title footer__title">ИНФО</h4>
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item"><a href="">Контакты</a></li>
+                            <li class="footer__menu-item"><a href="">Система лояльности</a></li>
+                            <li class="footer__menu-item"><a href="">Обмен и возврат</a></li>
+                            <li class="footer__menu-item"><a href="">Доставка и оплата</a></li>
+                        </ul>
+                    </nav>
+                    <div class="footer__info-address">
+                        <h4 class="footer__info-address-title footer__title">НАШ АДРЕС</h4>
+                        <div class="footer__address">
+                            г.Киев, ул. Нижний Вал, 37
+                        </div>
+                        <div class="footer__time">
+                            Пн — Вс: с 11:00 до 21:00
+                        </div>
+                    </div>
+                    <div class="footer__media-links">
+                        <h4 class="footer__media-title footer__title">
+                            СОЦ.СЕТИ
+                        </h4>
+                        <div class="footer__media-icons">
+                            <div class="footer__inst-icon">
+                                <a class="footer__inst-link" href="">
+                                    <img src="images/footer/instagram-logo.svg" alt="instagram">
+                                </a>
+                            </div>
+                            <div class="footer__facebook-icon">
+                                <a class="footer__facebook-link" href="">
+                                    <img src="images/footer/facebook-logo.svg" alt="facebook">
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__feedback">
+                        <div class="footer__feedback-info">
+                            <div class="footer__feedback-image">
+                                <img src="images/footer/photo.jpg" alt="Ivanka">
+                            </div>
+                            <div class="footer__feedback-text">
+                                Нам важно знать, что ты думаешь про нас! Просто напиши мне!
+                            </div>
+                        </div>
+                        <a class="footer__feedback-link footer__title" href="">Написать Иванке</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    
+</body>
+</html>
